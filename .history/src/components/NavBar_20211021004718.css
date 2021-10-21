@@ -1,0 +1,51 @@
+button:hover {
+	cursor: pointer;
+}
+
+.NavBar button {
+	background-color: Transparent;
+    border: ;
+}
+
+.NavBar {
+	background-color: #021e39;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	display: flex;
+}
+
+.NavBar .Home {
+	color: white;
+	font-size: 40px;
+	margin-left: 20px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.NavBar .Right {
+	flex: 50%;
+	display: flex;
+	justify-content: right;
+	margin-right: 10px;
+	align-items: center;
+}
+
+.NavBar .Right .links {
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	width: 100%;
+	background-color: #021e39;
+	display: flex;
+	flex-direction: column;
+}
+
+.NavBar .Right .links a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	margin: 10px;
+}

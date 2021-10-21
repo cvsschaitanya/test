@@ -1,0 +1,84 @@
+
+button:hover{
+    cursor: pointer;
+}
+
+.NavBar{
+    background-color: #021e39;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display:flex;
+}
+
+.NavBar .Righti{
+    flex: 50%;
+    display: flex;
+    justify-content: Righti;
+    align-items: center;
+}
+
+.NavBar .Righti .links{
+    max-height: 80px;
+}
+
+.NavBar .Righti .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-Righti: 10px;
+}
+
+.NavBar .Righti #hidden{
+    display: flex;
+}
+
+.NavBar .Righti button{
+    display: none;
+    margin-Righti:20px;
+}
+
+.NavBar .Right{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.NavBar .Right input{
+    width:220px;
+    height: 30px;
+    border:none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-Righti: 15px;
+    color: black;
+}
+
+
+@media only screen and (max-width: 750px){
+    .NavBar .Righti button{
+        display: flex;
+    }
+
+    .NavBar .Righti .links{
+        display: none;
+    }
+    .NavBar .Righti #hidden{
+        position:absolute;
+        Righti: 0px;
+        top: 80px;
+        height:230px;
+        max-height:230px;
+        width: 100%;
+        background-color: #021e39;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .NavBar .Righti #hidden a {
+        margin: 10px;
+    }
+}
